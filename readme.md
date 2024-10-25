@@ -47,54 +47,6 @@ BE/
         └── ai_analysis.py
 ```
 
-## Components
-
-### AI 
-
-#### AI_chatbot_model
-
-- **bot/**: Contains the chatbot implementation.
-- **predict_cryptos/**: Contains scripts for predicting cryptocurrency prices.
-  - **connectDB.py**: Database connection and query functions.
-  - **crawl_data.py**: Data crawling.
-- **rasa_bot/**: Contains Rasa chatbot configuration.
-  - **config.yml**: Configuration for Rasa NLU.
-  - **endpoints.yml**: Endpoints configuration for Rasa.
-- **test.ipynb**: Jupyter notebook for testing.
-
-#### AI_prediction_model
-
-- **predict.py**: Script for making predictions.
-- **run_predict.py**: Script for running predictions.
-- **run.py**: Main script for running the model.
-- **train.py**: Script for training the model.
-
-#### connect_db
-
-- **config_db.py**: Database configuration.
-- **connectDB.py**: Database connection and query functions.
-
-#### crawl_data
-
-- **crawl_data_xrp.py**: Script for crawling data from xrpl.
-
-#### python_comute
-
-- **_test_crawl_stock_price.py**: Test script for crawling stock prices.
-- **_test_run_compute_rsi.py**: Test script for computing RSI.
-- **harmonic_pattern_d1.py**: Script for detecting harmonic patterns on D1 timeframe.
-- **harmonic_pattern_h1.py**: Script for detecting harmonic patterns on H1 timeframe.
-- **harmonic_pattern_h4.py**: Script for detecting harmonic patterns on H4 timeframe.
-- **run_compute_rsi.py**: Script for computing RSI.
-- **run_d1.sh**: Shell script for running D1 computations.
-
-### BE
-
-#### app
-
-- **routers/ai_analysis.py**: API routes for AI analysis.
-- **schemas/ai_analysis.py**: Pydantic models for AI analysis.
-
 ## Installation
 
 1. Clone the repository:
